@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const words = ["PhiloMath", "Aspiring  Software Developer"];
+    const words = ["PhiloMath", "System Engineer"];
     let wordIndex = 0;
     let charIndex = 0;
     let currentWord = '';
@@ -52,4 +52,5 @@ document.addEventListener("DOMContentLoaded", function () {
       let percent = circle.getAttribute('data-percent');
       circle.style.setProperty('--percent', percent);
   });
+
   
